@@ -1,0 +1,96 @@
+Three.js Knowledge Learning Library Website — UI Specification
+
+1. Website Goal
+The website is a learning-oriented platform designed to help developers understand and explore Three.js.
+It combines:
+- Official-style documentation summaries
+- Beginner-friendly tutorials
+- Interactive examples gallery
+- Background knowledge about 3D concepts
+
+2. Target Users
+- Front-end developers new to Three.js
+- Developers with basic 3D knowledge
+- Learners looking for structured Three.js learning paths
+
+3. Pages & Sections
+
+3.1 Home Page
+- Hero section introducing Three.js and the purpose of the site
+- Navigation entry points:
+  - Documentation
+  - Tutorials
+  - Examples
+  - 3D Basics
+- Featured learning paths (Beginner / Intermediate)
+
+3.2 Documentation Page
+- List of core Three.js concepts:
+  - Scene
+  - Camera
+  - Renderer
+  - Geometry
+  - Material
+  - Light
+- Each concept includes:
+  - Title
+  - Short explanation
+  - Code snippet (mocked, static)
+- Sidebar navigation for concepts
+
+3.3 Tutorials Page
+- Step-by-step tutorials:
+  - Creating your first scene
+  - Adding a camera
+  - Rendering objects
+- Each tutorial includes:
+  - Title
+  - Difficulty level
+  - Step list
+  - Code snippets
+- Tutorials are read-only (no live editor required)
+
+3.4 Examples Page
+- Gallery of example cards:
+  - Rotating cube
+  - Basic lighting demo
+  - Orbit controls demo
+- Each example card includes:
+  - Title
+  - Description
+  - Thumbnail placeholder
+- Clicking a card navigates to an Example Detail Page
+
+3.5 Example Detail Page
+- Example title and description
+- Placeholder area for Three.js canvas
+- Code snippet shown below the demo
+- Back navigation
+
+3.6 3D Basics Page
+- Educational content explaining:
+  - What is 3D space
+  - Coordinate systems
+  - Mesh, geometry, material concepts
+- Text-based content with simple diagrams (static placeholders)
+
+4. Navigation
+- Top navigation bar visible on all pages
+- Active route highlighting
+- Mobile-friendly menu
+
+5. Data & State
+- All content can be powered by mock data
+- No backend integration required
+- Use local data files under src/data
+
+6. Accessibility & Responsiveness
+- Fully responsive layout (mobile / tablet / desktop)
+- Semantic HTML structure
+- Accessible navigation and buttons
+
+7. Non-Goals
+- No authentication
+- No backend API
+- No real-time editing of Three.js code
+- No actual WebGL performance optimization required
